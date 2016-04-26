@@ -1,0 +1,44 @@
+html,body
+    height:100%
+    width:100%
+    
+.header
+    margin:0
+    padding:0
+    max-height:250px
+    height:100%
+    width: 100%
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("../img/background.jpeg")
+    font-family: Raleway
+    padding:30px 0
+    position: relative
+    
+    .main-title
+        text-align: center
+        font-size: 72px
+        color:#e52226
+    
+    .nav 
+        
+        position: absolute
+        top:80%
+        left:50%
+        +transform(translate(-50%,-50%))
+        
+        li
+            font-size: 26px
+            float: left
+            margin-right: 50px
+            &:last-child
+                margin-right:0
+            a
+                font-weight: bold
+                color:#e52226
+                letter-spacing: 1px
+                text-transform: uppercase
+                +transition(all 300ms ease-in-out)
+                
+                &:hover
+                    color: darken(#e52226, 10%)
+        
+        

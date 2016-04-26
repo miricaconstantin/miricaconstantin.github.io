@@ -1,0 +1,22 @@
+/* line 1, C:/Users/tutyr/Desktop/pictor/assets/css/4-pages/despre.sass */
+.despre {
+  max-height: 500px;
+  max-width: 100%;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(rgba(139, 151, 152, 0.87), rgba(139, 151, 152, 0.87)), url("../img/background.jpeg"); }
+  /* line 10, C:/Users/tutyr/Desktop/pictor/assets/css/4-pages/despre.sass */
+  .despre .lucrari, .despre .nume, .despre .pictor {
+    font-family: Raleway;
+    font-size: 62px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    padding: 50px 200px;
+    color: #2c3e50; }
+  /* line 19, C:/Users/tutyr/Desktop/pictor/assets/css/4-pages/despre.sass */
+  .despre .nume {
+    padding: 0;
+    font-style: italic; }
+
+/*# sourceMappingURL=despre.css.map */

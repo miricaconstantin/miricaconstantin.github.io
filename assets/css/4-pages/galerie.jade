@@ -1,0 +1,26 @@
+mixin gallery(link)
+    figure
+        img(src="#{link}")
+        .overlay
+           .lupa
+
+section.galerie
+    .wrapper
+        .col-text
+            h3.titlu   galerie
+            span.vertical
+            a(href="#").more vezi mai mult
+        .col-img
+            +gallery("assets/img/bad.png")
+            +gallery("assets/img/avengers.jpg")
+            +gallery("assets/img/dead.png")
+            +gallery("assets/img/empire.png")
+            +gallery("assets/img/game.png")
+            +gallery("assets/img/inside.jpg")
+            
+    .img-open
+        .content
+            .close-btn
+            img(src="assets/img/bad.jpg").overlay-bg
+             
+                
